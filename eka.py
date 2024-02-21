@@ -14,7 +14,7 @@ def main():
     updater = Updater("6711282599:AAH3hu0qo81asElRYLci17SOwdkHZxw8FiA", use_context=True, update_queue=None)
 
     dp = updater.dispatcher
-    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(CommandHandler("start your bot", start))
     dp.add_handler(CommandHandler("ekologiya", ekologiya))
 
     updater.start_polling()
