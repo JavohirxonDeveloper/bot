@@ -11,7 +11,7 @@ def ekologiya(update, context):
 # Botni yaratish va ishga tushirish
 print("it work!")
 def main():
-    updater = Updater("6711282599:AAH3hu0qo81asElRYLci17SOwdkHZxw8FiA", use_context=True, update_queue=None)
+    updater = Updater("", use_context=True, update_queue=None)
 
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start your bot", start))
